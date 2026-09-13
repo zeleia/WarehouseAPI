@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adam\\Repos\\DotnetProjects\\WarehouseAPI\\warehouse_api.csproj": {}
+    "C:\\Users\\adam\\Repos\\DotnetProjects\\WarehouseAPI\\WarehouseAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adam\\Repos\\DotnetProjects\\WarehouseAPI\\warehouse_api.csproj": {
+    "C:\\Users\\adam\\Repos\\DotnetProjects\\WarehouseAPI\\WarehouseAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adam\\Repos\\DotnetProjects\\WarehouseAPI\\warehouse_api.csproj",
-        "projectName": "warehouse_api",
-        "projectPath": "C:\\Users\\adam\\Repos\\DotnetProjects\\WarehouseAPI\\warehouse_api.csproj",
+        "projectUniqueName": "C:\\Users\\adam\\Repos\\DotnetProjects\\WarehouseAPI\\WarehouseAPI.csproj",
+        "projectName": "WarehouseAPI",
+        "projectPath": "C:\\Users\\adam\\Repos\\DotnetProjects\\WarehouseAPI\\WarehouseAPI.csproj",
         "packagesPath": "C:\\Users\\adam\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\adam\\Repos\\DotnetProjects\\WarehouseAPI\\obj\\",
         "projectStyle": "PackageReference",
@@ -49,6 +49,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.8, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[2.7.5, )"
             }
           },
           "imports": [
