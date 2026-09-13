@@ -1,6 +1,6 @@
 namespace WarehouseAPI.Models;
 
-public class InventoryAuditLogs
+public class InventoryAuditLog
 {
     public int Id { get; set; }
     public int ProductId { get; set; }
