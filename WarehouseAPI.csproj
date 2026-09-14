@@ -14,7 +14,8 @@
   </PropertyGroup>
 
   <ItemGroup Condition="'$(IsTesting)' != 'true'">
-    <Compile Remove="Tests\**.cs" />
+    <Compile Remove="Tests\**\*.cs" />
+    <Compile Remove="Tests/**/*.cs" />
   </ItemGroup>
 
 <ItemGroup>
